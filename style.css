@@ -1,9 +1,9 @@
 body {
     margin: 0;
 }
-
 .experience-container{
     background-color: teal;
+    width: 100%;
 }
 
 .experience-title {
@@ -17,8 +17,29 @@ body {
     font-family:'Times New Roman', Times, serif;
     font-size: 500;
     letter-spacing: 1.2px;
+    max-width: 90%;
 }
 
-.orderedlist-experience {
+.experience-items-wrapper {
     font-size: 20px;
+    width: 90%;
+}
+
+#img-experience {
+    width: 80%;
+    height: 50%;
+    object-fit:contain;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.image-experience-wrapper {
+    display: flex;
+    height: 50%;
+}
+
+.experience-item {
+    margin-left: 5%;
+    width: 100%;
+    width: 90%;
 }
