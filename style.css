@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 * {box-sizing:border-box}
+=======
+>>>>>>> navbar
 body {
     margin: 0;
 }
 
+<<<<<<< HEAD
 .slideshow-container {
   width: 100%;
   height: 90vh;
@@ -78,3 +82,64 @@ body {
 .active, .dot:hover {
   background-color: #717171;
 }
+=======
+h1 {
+    font-size: 20px;
+    color: aquamarine;
+    background-color: black;
+}
+
+.navbar-wrapper {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    background-color: darkslategrey;
+}
+
+.logo-navbar {
+    display: flex;
+    max-width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-profile-nav {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: cover;
+}
+
+.navbar-options {
+    max-width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.section-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style-type: none;
+    color: whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+    text-align: center;
+    background-clip: padding-box; 
+    cursor: pointer;
+    
+}
+
+a { 
+    color: inherit; 
+    text-decoration: none;
+} 
+>>>>>>> navbar
