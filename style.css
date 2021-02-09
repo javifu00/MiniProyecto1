@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+}
+
+.skills-wrapper {
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 15px;
+}
