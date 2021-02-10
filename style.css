@@ -80,6 +80,16 @@ body {
   padding-left: 15%;
 }
 
+#info-personal-li {
+  letter-spacing: 1.2px;
+  color:white;
+}
+
+#text-javier-li-title {
+  letter-spacing: 1.2px;
+  font-family:'Times New Roman', Times, serif;
+}
+
 .active, .dot:hover {
   background-color: #717171;
 }
