@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
 }
 .experience-container{
     background-color: teal;
@@ -23,39 +24,41 @@ body {
 
 .experience-items-wrapper {
     font-size: 20px;
-    width: 90%;
+    width: 95%;
     display: flex;
+    background-color: #a8dadc;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 #img-experience {
-    width: 100%;
-    height: 50%;
+    width: 80%;
     object-fit:contain;
     margin-top: 5px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .image-experience-wrapper {
     display: flex;
-    height: 50%;
     position:absolute;
 }
 
-
-
 .experience-item {
     margin-left: 3%;
-    width: 90%;
-    height: 2000px;
+    width: 95%;
+    padding-bottom: 5%;
 }
 
 .specific-item {
-    width: 60%;
+    width: 70%;
+    padding: 10px;
 }
 
 .specific-item-picture {
     display: flex;
-    width: 60%;
+    width: 50%;
     align-items: center;
     justify-content: center;
 }
