@@ -4,6 +4,7 @@ body {
 .experience-container{
     background-color: teal;
     width: 100%;
+    padding-top: 2%;
 }
 
 .experience-title {
@@ -23,10 +24,11 @@ body {
 .experience-items-wrapper {
     font-size: 20px;
     width: 90%;
+    display: flex;
 }
 
 #img-experience {
-    width: 80%;
+    width: 100%;
     height: 50%;
     object-fit:contain;
     margin-top: 5px;
@@ -36,10 +38,24 @@ body {
 .image-experience-wrapper {
     display: flex;
     height: 50%;
+    position:absolute;
 }
 
+
+
 .experience-item {
-    margin-left: 5%;
-    width: 100%;
+    margin-left: 3%;
     width: 90%;
+    height: 2000px;
+}
+
+.specific-item {
+    width: 60%;
+}
+
+.specific-item-picture {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
 }
