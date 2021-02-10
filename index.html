@@ -6,7 +6,6 @@
     <title>Document</title>
     <LINK rel="stylesheet" href="style.css" type="text/css" media="screen">
 </head>
-<<<<<<< HEAD
 <body>
     <div class="navbar-wrapper">
         <div class="logo-navbar">
@@ -15,13 +14,14 @@
         <div class="navbar-options">
             <ul class="section-options">
                 <li><a href="#hero">Hero</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#aboutme">Datos</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#contactme">Contact Me</a></li>
+                <li><a href="#contactme">Contactame</a></li>
             </ul>   
         </div>
     </div>
+
     <div class="slideshow-container" id="hero">
 
         <div class="mySlides fade">
@@ -48,12 +48,12 @@
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
-=======
-<body>  
-    <div class="experience-container">
+        </div>  
+    </div>
+
+    <div class="experience-container" id="experience">
         <div class="experience-title">
-            <h1>Experience</h1>
->>>>>>> experience
+            <h1>EXPERIENCIA</h1>
         </div>  
         <div class="experience-item">
             <div class="experience-items-wrapper">
@@ -117,7 +117,96 @@
                 </div>
             </div>
         </div>
-    </div>        
+    </div> 
+    
+     <div class="aboutme-wrapper" id="aboutme">
+        <div id="info-personal"><h1>INFORMACION PERSONAL</h1></div>
+        
+        <div class="image-javier-wrapper">
+            <img id="image-scooter" src="ImagenJavier1.jpeg" alt="Imagen de Javier">
+        </div>
+        <div class="javier-information-wrapper">
+            <h2>Mi nombre:</h2>
+            <h3 id="text-javier">Javier Fuenmayor</h3>
+            <h2>Objetivos a corto plazo:</h2>
+            <ul>
+                <li>Poder pasar este microproyecto (help)</li>
+                <li>No volverme loco con todas los trabajos de todas las materias</li>
+                <li>Necesito ir a la playa pronto</li>
+            </ul>
+            <h2>Objetivos a largo plazo:</h2>
+            <ul>
+                <li>Poder graduarme de la universidad lo mas pronto posible</li>
+                <li>Salir de Venezuela</li>
+                <li>Conseguir un buen trabajo</li>
+            </ul>
+            <h2>Gustos y hobbies:</h2>
+            <ul>
+                <li>Me gusta mucho comer</li>
+                <li>Me gusta cocinar</li>
+                <li>Juego varios deportes (futbol, tenis, baloncesto, etc)</li>
+                <li>Me gusta trabajar en equipo</li>
+                <li>Me gusta programar</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="skills-wrapper" id="skills">
+        <h2 id="title-habilidades">MIS HABILIDADES TECNOLOGICAS</h2>
+        <span id="span-habilidades">A continuacion se muestran unas barras que indican mis habilidades y conocimientos cobre distintos lenguajes de programacion</span>
+        
+            <div id="java-skill">
+                <h2>Java</h2>
+                <h3>80%</h3>
+            </div>
+            <div id="python-skill">
+                <h2>Python</h2>
+                <h3>70%</h3>
+            </div>
+            <div id="HTML-skill">
+                <h2>HTML</h2>
+                <h3>30%</h3>
+            </div>
+            <div id="Assambler-skill">
+                <h2>Assambler</h2>
+                <h3>13%</h3>
+            </div>
+    </div>
+
+    <div class="contact-wrapper" id="contactme">
+        <h1 id="title-contact">CONTACTAME</h1>
+        <div class="form-wrapper">
+            <form class="form-info-user" method="post" name="form-info">
+                <ul class="ul-contact">
+                    <li class="form-info-user-li">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+                    <li class="form-info-user-li">
+                        <label for="mail">Correo electrónico:</label>
+                        <input type="mail" id="mail" name="user_mail">
+                    </li>
+                    <li class="form-info-user-li">
+                        <label for="msg">Mensaje:</label>
+                        <textarea type="text" id="msg" name="user_message"></textarea>
+                    </li>
+                </ul>
+                <h2 class="button-send">
+                    <button class="button-submit-info" onclick="mostrarDatos()" >Envíe su mensaje</button>
+                    
+                </h2>
+            </form>
+        </div>
+        <div class="social-media-wrapper">
+            <div class="informacion-contacto"><h3>Informacion de Contacto</h3></div>
+            <div class="informacion-agradeciendo"><h3>Gracias por visitar mi Curriculum</h3></div>
+            <div class="social-media-links">
+                <a class="social-media-names" target="_isblank" href="https://www.instagram.com/javifu00/?hl=es">Instagram</a>
+                <a class="social-media-names" target="_isblank" href="https://twitter.com/javifu00">Twitter</a>
+                <a class="social-media-names" target="_isblank" href="https://api.whatsapp.com/send?phone=584143259526">04143259526</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
 <script src= "main.js"></script>

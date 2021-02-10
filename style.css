@@ -1,8 +1,7 @@
+* {box-sizing:border-box}
 body {
     margin: 0;
-    padding: 0;
 }
-<<<<<<< HEAD
 
 .slideshow-container {
   width: 100%;
@@ -35,15 +34,9 @@ body {
 
 .images-hero {
     height: 75vh;
-=======
-.experience-container{
-    background-color: teal;
->>>>>>> experience
     width: 100%;
-    padding-top: 2%;
 }
 
-<<<<<<< HEAD
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
@@ -70,59 +63,353 @@ body {
   padding: 8px 12px;
   position: absolute;
   top: 0;
-=======
-.experience-title {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 500;
-    letter-spacing: 1.2px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+#text-javier {
+  padding-left: 15%;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+h1 {
+    font-size: 30px;
+    color: black;
+}
+
+#title-contact {
+  text-align: center;
+}
+
+.navbar-wrapper {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    background-color: darkslategrey;
+}
+
+.logo-navbar {
+    display: flex;
+    max-width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-profile-nav {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: cover;
+}
+
+.navbar-options {
+    max-width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.section-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style-type: none;
+    color: whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
     text-align: center;
->>>>>>> experience
+    background-clip: padding-box; 
+    cursor: pointer;
+    
+}
+
+a { 
+    color: inherit; 
+    text-decoration: none;
+} 
+
+.experience-container{
+  background-color: teal;
+  width: 100%;
+  padding-top: 2%;
+}
+
+.experience-title {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 500;
+  letter-spacing: 1.2px;
+  text-align: center;
 }
 
 .experience-project-name {
-    font-family:'Times New Roman', Times, serif;
-    font-size: 500;
-    letter-spacing: 1.2px;
-    max-width: 90%;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 500;
+  letter-spacing: 1.2px;
+  max-width: 90%;
 }
 
 .experience-items-wrapper {
-    font-size: 20px;
-    width: 95%;
-    display: flex;
-    background-color: #a8dadc;
-    border: 2px solid black;
-    border-radius: 8px;
+  font-size: 20px;
+  width: 95%;
+  display: flex;
+  background-color: #a8dadc;
+  border: 2px solid black;
+  border-radius: 8px;
 }
 
 #img-experience {
-    width: 80%;
-    object-fit:contain;
-    margin-top: 5px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+  width: 80%;
+  object-fit:contain;
+  margin-top: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .image-experience-wrapper {
-    display: flex;
-    position:absolute;
+  display: flex;
+  position:absolute;
 }
 
 .experience-item {
-    margin-left: 3%;
-    width: 95%;
-    padding-bottom: 5%;
+  margin-left: 3%;
+  width: 95%;
+  padding-bottom: 5%;
 }
 
 .specific-item {
-    width: 70%;
-    padding: 10px;
+  width: 70%;
+  padding: 10px;
 }
 
 .specific-item-picture {
-    display: flex;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutme-wrapper {
+  width: 100%;
+  display: flex;
+  background-color: #659dbd;
+}
+
+#info-personal {
+  position: absolute;
+  margin-left: 2%;
+}
+
+.image-javier-wrapper {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.javier-information-wrapper {
+  max-width: 55%;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: 3%;
+  color: whitesmoke;
+}
+
+#image-scooter {
+  padding: 5%;
+  max-width: 100%;
+  display: block;
+}
+
+.skills-wrapper {
+  background-color: whitesmoke;
+  width: 100%;
+  padding: 15px;
+}
+
+.contact-wrapper {
+  padding-top: 5%;
+  width: 100%;
+  background-color: rgb(216, 215, 215);
+  
+}
+
+.informacion-contacto{
+  width: 92.5%;
+  text-align: right;
+}
+
+.social-media-wrapper {
+  color: whitesmoke;
+  width: 100%;
+  height: 20vh;
+  padding: 1%;
+  background-color: black;
+}
+
+.social-media-links {
+  color: whitesmoke;
+  font-family:'Courier New', Courier, monospace;
+  font-size: larger;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  width: 95%;
+  text-align: right;
+}
+
+.social-media-names { 
+  color: white; 
+  text-decoration: none;
+  padding: 1%;
+  justify-content: right;
+  border:  1px solid #CCC;
+} 
+
+a:hover {
+  background-color: rgb(165, 128, 165);
+}
+
+.button-send{
+  margin-left: 43%;
+}
+
+.form-wrapper {
+  padding-bottom: 5%;
+}
+
+.form-info-user {
+  margin: 0 auto;
+  width: 60%;
+  padding: 1em;
+  border: 1px solid #CCC;
+  background-color: thistle;
+  border: 1px solid black;
+  padding-top: 3%;
+}
+
+.ul-contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form-info-user-li {
+  margin-top: 1em;
+}
+
+label {
+  /* Tamaño y alineación uniforme */
+  display: inline-block;
+  width: 20%;
+  text-align: right;
+}
+
+input,
+textarea {
+  /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+  Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+  font: 1em sans-serif;
+
+  /* Tamaño uniforme del campo de texto */
+  width: 65%;
+  box-sizing: border-box;
+
+  /* Hacer coincidir los bordes del campo del formulario */
+  border: 1px solid black;
+}
+
+input:focus,
+  textarea:focus {
+  /* Destacado adicional para elementos que tienen el cursor */
+  border-color: #000;
+}
+
+textarea {
+  /* Alinear los campos de texto multilínea con sus etiquetas */
+  vertical-align: top;
+
+  /* Proporcionar espacio para escribir texto */
+  height: 10em;
+}
+
+.button-submit-info {
+  background-color: white;
+  border-radius: 2px;
+}
+
+.button-submit-info:hover {
+  cursor: pointer;
+}
+
+.rectangulo-skills {
+  display: flex;
+  margin-left: 2%;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  width: 97%;
+  
+  background-color: orange;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+#java-skill {
+  margin-top: 3%;
+  border: 1px solid black;
+  width: 80%;
+  background-color:sandybrown;
+  text-align: center;
+}
+
+#python-skill {
+  margin-top: 3%;
+  border: 1px solid black;
+  width: 70%;
+  background-color:springgreen;
+  text-align: center;
+}
+
+#HTML-skill {
+  margin-top: 3%;
+  border: 1px solid black;
+  width: 50%;
+  background-color:violet;
+  text-align: center;
+}
+#Assambler-skill {
+  margin-top: 3%;
+  border: 1px solid black;
+  width: 20%;
+  background-color:wheat;
+  text-align: center;
+}
+
+#title-habilidades {
+  text-align: center;
+}
+
+#span-habilidades {
+  text-align: center;
+  font-size: larger;
+  letter-spacing: 1.2px;
+  font-weight: 500;
 }
