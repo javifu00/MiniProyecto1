@@ -10,8 +10,8 @@ body {
 }
 
 .informacion-contacto{
-    width: 120%;
-    padding: 2%;
+    width: 92.5%;
+    text-align: right;
 }
 
 .social-media-wrapper {
@@ -45,16 +45,16 @@ a:hover {
 }
 
 .button-send{
-    margin-left: 38%;
+    margin-left: 43%;
 }
 
 .form-wrapper {
     padding-bottom: 5%;
 }
 
-form {
+.form-info-user {
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
     padding: 1em;
     border: 1px solid #CCC;
     background-color: thistle;
@@ -68,41 +68,50 @@ form {
     margin: 0;
   }
   
-  form li + li {
+.form-info-user li + li {
     margin-top: 1em;
   }
   
   label {
     /* Tamaño y alineación uniforme */
     display: inline-block;
-    width: 90px;
+    width: 20%;
     text-align: right;
   }
   
-  input,
-  textarea {
+input,
+textarea {
     /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
-       Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+    Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
     font: 1em sans-serif;
-  
+
     /* Tamaño uniforme del campo de texto */
-    width: 75%;
+    width: 65%;
     box-sizing: border-box;
-  
+
     /* Hacer coincidir los bordes del campo del formulario */
     border: 1px solid black;
-  }
+}
   
-  input:focus,
-  textarea:focus {
+input:focus,
+    textarea:focus {
     /* Destacado adicional para elementos que tienen el cursor */
     border-color: #000;
-  }
-  
-  textarea {
+}
+
+textarea {
     /* Alinear los campos de texto multilínea con sus etiquetas */
     vertical-align: top;
-  
+
     /* Proporcionar espacio para escribir texto */
     height: 10em;
-  }
+}
+
+.button-submit-info {
+    background-color: white;
+    border-radius: 2px;
+}
+
+.button-submit-info:hover {
+    cursor: pointer;
+}
